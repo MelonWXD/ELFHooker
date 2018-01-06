@@ -32,9 +32,12 @@
 
 找到`/system/bin/surfaceflinger`这个进程的pid:
 - ps | grep surfaceflinger
-- ./inject -p <pid> -l /data/local/tmp/libelfHooker.so
-  ![](http://owu391pls.bkt.clouddn.com/cmdlog.png)
-  查看日志输出:
+- ./inject -p <pid> -l /data/local/tmp/libelfHooker.so  
+  
+  ![](http://owu391pls.bkt.clouddn.com/cmdlog.png)  
+  
+  查看日志输出:  
+  
   ![](http://owu391pls.bkt.clouddn.com/injectlog.png)
   ![](http://owu391pls.bkt.clouddn.com/hookerlog.png)
 
