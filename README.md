@@ -15,8 +15,9 @@
 
 分别开2个终端来查看日志:
 - adb logcat | grep INJECT
-- adb logcat | grep ELFHooker
-  如果其他日志太多了可以用 `adb logcat -c`来清理一下日志
+- adb logcat | grep ELFHooker  
+
+  如果日志太多了可以用 `adb logcat -c`来清理一下日志
 
 然后在新的终端中执行:
 - git clone 
@@ -31,13 +32,13 @@
 - chmod 755 libelfHooker.so 
 
 找到`/system/bin/surfaceflinger`这个进程的pid:
-- ps | grep surfaceflinger
+- ps | grep surfaceflinger (如果要在代码中实现的话，可以遍历/proc/pid/cmdline文件来找到你某个进程名对应的pid)
 - ./inject -p <pid> -l /data/local/tmp/libelfHooker.so  
-  
+
   ![](http://owu391pls.bkt.clouddn.com/cmdlog.png)  
-  
+
   查看日志输出:  
-  
+
   ![](http://owu391pls.bkt.clouddn.com/injectlog.png)
   ![](http://owu391pls.bkt.clouddn.com/hookerlog.png)
 
