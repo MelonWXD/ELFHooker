@@ -1,0 +1,2 @@
+# ELFHooker
+基于EFL文件格式Hook的demo，hook了SurfaceFlinger进程的eglSwapBuffers函数，替换为new_eglSwapBuffers
