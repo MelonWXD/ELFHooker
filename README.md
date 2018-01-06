@@ -20,7 +20,7 @@
 
 然后在新的终端中执行:
 - git clone 
-- cd jni
+- cd ELFHooker/jni
 - ndk-build
 - cd ../libs/arm64-v8a/ (or ../libs/armeabi// if your device is 32-bit)
 - adb push .* /data/local/tmp
