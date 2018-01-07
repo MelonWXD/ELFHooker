@@ -3,7 +3,8 @@
 
 兼容Android 32位和64位。
 
-注入系列笔记：
+注入系列笔记：  
+
 [ELF格式分析](https://melonwxd.github.io/2017/11/19/inject-1-elf/)  
 [so文件加载流程](https://melonwxd.github.io/2017/11/28/inject-2-so/)  
 [Inject和Hook](https://melonwxd.github.io/2017/12/01/inject-3-hook/)  
@@ -47,5 +48,5 @@
 
 
 ## 参考
-[Lody's elfHook](https://github.com/asLody/ElfHook)
+[Lody's elfHook](https://github.com/asLody/ElfHook)  
 [ Android中的so注入(inject)和挂钩(hook) - For both x86 and arm](http://blog.csdn.net/jinzhuojun/article/details/9900105)
