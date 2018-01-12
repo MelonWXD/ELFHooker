@@ -34,7 +34,7 @@
 
 找到`/system/bin/surfaceflinger`这个进程的pid:
 - ps | grep surfaceflinger (如果要在代码中实现的话，可以遍历/proc/pid/cmdline文件来找到你某个进程名对应的pid)
-- ./inject -p <pid> -l /data/local/tmp/libelfHooker.so  
+- ./inject -p pid -l /data/local/tmp/libelfHooker.so  
 
   ![](http://owu391pls.bkt.clouddn.com/cmdlog.png)  
 
