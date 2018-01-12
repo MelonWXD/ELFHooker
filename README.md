@@ -21,7 +21,7 @@
   如果日志太多了可以用 `adb logcat -c`来清理一下日志
 
 然后在新的终端中执行:
-- git clone 
+- git clone git@github.com:MelonWXD/ELFHooker.git
 - cd ELFHooker/jni
 - ndk-build
 - cd ../libs/arm64-v8a/ (or ../libs/armeabi// if your device is 32-bit)
