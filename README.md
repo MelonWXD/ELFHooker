@@ -9,6 +9,9 @@
 [so文件加载流程](https://melonwxd.github.io/2017/11/28/inject-2-so/)  
 [Inject和Hook](https://melonwxd.github.io/2017/12/01/inject-3-hook/)  
 
+
+PS:各位大哥 fork了也start一下呗～  
+
 ## 使用
 准备:
 - 一台root的android设备
