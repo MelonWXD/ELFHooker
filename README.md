@@ -10,7 +10,7 @@
 [Inject和Hook](https://melonwxd.github.io/2017/12/01/inject-3-hook/)  
 
 
-PS:各位大哥 fork了也start一下呗～  
+PS:各位大哥 fork了也star一下呗～  
 
 ## 使用
 准备:
